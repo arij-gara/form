@@ -1,0 +1,49 @@
+
+
+.all{
+    display:flex;
+}
+.leftsection {
+    flex :2
+}
+.middlesection{
+    flex:3
+}
+.rightsection {
+  flex:2
+}
+
+.form-builder {
+    max-width: 270px;
+    margin: 10 10 10 10 ;
+    padding: 24px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  } 
+  
+  .form-builder__heading {
+    margin-top: 0;
+  } 
+  
+  .form-builder__buttons {
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .form-builder__button {
+    width:200px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    background-color: #182674;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form-builder__button:hover {
+    background-color: #2c387e;
+  }
+  
